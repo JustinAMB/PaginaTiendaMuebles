@@ -61,7 +61,7 @@ img {
 }
 
 .contenedor {
-    max-width: 100rem;
+    max-width: 110rem;
     margin: 0 auto;
 }
 
@@ -286,3 +286,38 @@ a {
 .copyright {
     padding: 1rem;
 }
+
+
+/** Nosotros **/
+
+.contenido-nosotros {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 4rem;
+}
+
+.informacion-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*Galeria*/
+
+.galeria {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.galeria img {
+    height: 40rem;
+    width: 40rem;
+    object-fit: cover;
+}
+
+
+/*formulario*/
