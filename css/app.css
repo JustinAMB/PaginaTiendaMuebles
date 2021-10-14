@@ -368,3 +368,31 @@ a {
     border: 0.1rem solid #111;
     margin-bottom: 2rem;
 }
+
+.formulario legend {
+    background-color: #005485;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.campo label {
+    flex-basis: 10rem;
+}
+
+.campo input:not([type="radio"]),
+.campo textarea,
+.campo select {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+}
