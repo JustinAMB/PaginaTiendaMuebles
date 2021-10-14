@@ -358,3 +358,13 @@ a {
 
 
 /*formulario*/
+
+.formulario {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.formulario fieldset {
+    border: 0.1rem solid #111;
+    margin-bottom: 2rem;
+}
